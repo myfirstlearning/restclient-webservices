@@ -259,7 +259,7 @@ public class EmployeeRestClient {
         return httpHeaders;
     }
 
-    //=============== HEAD REQUEST ================
+    //=============== OPTION REQUEST ==============
     //=============================================
 
     public static Set<HttpMethod>  optionForAllow(long id){
