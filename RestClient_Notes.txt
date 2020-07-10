@@ -1,0 +1,17 @@
+--RestTemplate - executes the synchronous HTTP request on Client side
+--HttpURLConnection is used in RestTemplate
+--WebClient - offers modern alternative to RestTemplate
+            - offers both Synchronous & Asynchronous HTTP request and straming scenarios
+--RestTemplate handles - creating a URL & opening a connection
+                       - Configuring a HTTP request
+                       - Executing HTTP request
+                       - Interpretation of HTTP response
+                       - Converting HTTP response to Java Object
+                       - Exception Handling
+
+--  FRAMEWORK                 PATHSEGMENT                 HTTPQUERYPARAMETER
+    jersey(JAX-RS)            @PathParam                  @QueryParam
+    Spring Restful            @PathVariable               @RequestParam
+
+--@RequestParam - extracts value from query string
+--@PathVariable - extracts value from URI path
